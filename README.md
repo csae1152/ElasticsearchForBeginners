@@ -14,5 +14,27 @@ Elasticsearch and Spring Boot:
 4. Implement serviceImpl
 
 
+Allowed attributes for type String:
+
+index_name
+store
+index
+doc_values
+term_vector
+boost
+null_value
+norms: {enabled: <value>}
+norms: {loading: <value>}
+index_options
+analyzer
+index_analyzer
+search_analyzer
+include_in_all
+ignore_above
+position_offset_gap
+
+
+
+
 
 
