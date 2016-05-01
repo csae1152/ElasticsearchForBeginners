@@ -21,7 +21,7 @@ store
 index
 doc_values
 term_vector
-boost
+boost - you can modifie this "screw" due to the importance of your docments.
 null_value
 norms: {enabled: <value>}
 norms: {loading: <value>}
