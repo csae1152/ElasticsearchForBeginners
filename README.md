@@ -33,6 +33,23 @@ include_in_all
 ignore_above
 position_offset_gap
 
+Multiple Query Strings
+======================
+
+The simplest multifield query to deal with is the one where we can map search terms to specific fields. If we know that War and Peace is the title, and Leo Tolstoy is the author, it is easy to write each of these conditions as a match clause and to combine them with a bool query:
+
+GET /_search
+{
+  "query": {
+    "bool": {
+      "should": [
+        { "match": { "title":  "ReleaseIT" }},
+        { "match": { "author": "Michael Nygard"   }}
+      ]
+    }
+  }
+}
+
 
 
 
