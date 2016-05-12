@@ -56,6 +56,11 @@ Running elasticsearch on multiple nodes
 1. How to do this
 
   Replication problems
+  
+  
+  
+Shardes and Node replication
+
 
 
 
