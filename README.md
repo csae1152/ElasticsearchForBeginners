@@ -31,7 +31,7 @@ index_analyzer
 search_analyzer
 include_in_all
 ignore_above
-position_offset_gap
+position_offset_gap - A curious thing can happen when you try to use phrase matching on multivalue fields.
 
 Multiple Query Strings
 ======================
